@@ -2,6 +2,7 @@
 /*
 
 # Include tracked files
+!/README.md
 !/.gitignore
 !/.gitconfig
 !/nvim/
@@ -10,3 +11,4 @@
 !/windows_terminal/**
 !/.bashrc
 !/.bash_profile
+!starter.cmd
