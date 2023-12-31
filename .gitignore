@@ -3,12 +3,12 @@
 
 # Include tracked files
 !/.gitignore
+!/.gitconfig
+!/.yarnrc
 !/nvim/
 !/nvim/**
 !/windows_terminal/
 !/windows_terminal/**
-
-# ignore git files in nvim
-/nvim/.gitignore
-/nvim/.git
-/nvim/.git/**
+!/.bashrc
+!/.bash_profile
+!/.bash_profile
