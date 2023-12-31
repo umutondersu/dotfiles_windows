@@ -1,0 +1,14 @@
+# Ignore all files and folders
+/*
+
+# Include tracked files
+!/.gitignore
+!/nvim/
+!/nvim/**
+!/windows_terminal/
+!/windows_terminal/**
+
+# ignore git files in nvim
+/nvim/.gitignore
+/nvim/.git
+/nvim/.git/**
