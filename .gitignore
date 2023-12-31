@@ -12,3 +12,6 @@
 !/.bashrc
 !/.bash_profile
 !starter.cmd
+!/.config/
+!/.config/configstore
+!/.config/starship.toml
