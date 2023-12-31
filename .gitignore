@@ -4,7 +4,6 @@
 # Include tracked files
 !/.gitignore
 !/.gitconfig
-!/.yarnrc
 !/nvim/
 !/nvim/**
 !/windows_terminal/
