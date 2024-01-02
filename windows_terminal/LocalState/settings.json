@@ -45,7 +45,7 @@
             "cursorShape": "filledBox",
             "font": {
                 "face": "JetBrainsMono Nerd Font",
-                "size": 12.0
+                "size": 11.0
                 // "size": 14.0
             },
             "historySize": 12000,
