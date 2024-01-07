@@ -1,9 +1,11 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": [
+    "actions": 
+    [
         {
-            "command": {
+            "command": 
+            {
                 "action": "copy",
                 "singleLine": false
             },
@@ -18,7 +20,8 @@
             "keys": "ctrl+shift+f"
         },
         {
-            "command": {
+            "command": 
+            {
                 "action": "splitPane",
                 "split": "auto",
                 "splitMode": "duplicate"
@@ -33,17 +36,21 @@
     "confirmCloseAllTabs": false,
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{00000000-0000-0000-ba54-000000000002}",
-    "newTabMenu": [
+    "defaultProfile": "{789d2cbd-a8af-49e7-b0c1-31324f7d88ad}",
+    "newTabMenu": 
+    [
         {
             "type": "remainingProfiles"
         }
     ],
-    "profiles": {
-        "defaults": {
+    "profiles": 
+    {
+        "defaults": 
+        {
             "colorScheme": "xcad",
             "cursorShape": "filledBox",
-            "font": {
+            "font": 
+            {
                 "face": "JetBrainsMono Nerd Font",
                 "size": 11.0
             },
@@ -54,7 +61,8 @@
             "scrollbarState": "hidden",
             "useAcrylic": false
         },
-        "list": [
+        "list": 
+        [
             {
                 "commandline": "%PROGRAMFILES%\\Git\\bin\\bash.exe",
                 "guid": "{00000000-0000-0000-ba54-000000000002}",
@@ -96,7 +104,8 @@
             }
         ]
     },
-    "schemes": [
+    "schemes": 
+    [
         {
             "background": "#0C0C0C",
             "black": "#0C0C0C",
@@ -282,6 +291,29 @@
             "yellow": "#C4A000"
         },
         {
+            "background": "#1A1B26",
+            "black": "#15161E",
+            "blue": "#7AA2F7",
+            "brightBlack": "#414868",
+            "brightBlue": "#7AA2F7",
+            "brightCyan": "#7DCFFF",
+            "brightGreen": "#9ECE6A",
+            "brightPurple": "#9D7CD8",
+            "brightRed": "#F7768E",
+            "brightWhite": "#C0CAF5",
+            "brightYellow": "#E0AF68",
+            "cursorColor": "#C0CAF5",
+            "cyan": "#7DCFFF",
+            "foreground": "#C0CAF5",
+            "green": "#9ECE6A",
+            "name": "Tokyo Night",
+            "purple": "#BB9AF7",
+            "red": "#F7768E",
+            "selectionBackground": "#283457",
+            "white": "#A9B1D6",
+            "yellow": "#E0AF68"
+        },
+        {
             "background": "#300A24",
             "black": "#171421",
             "blue": "#0037DA",
@@ -349,29 +381,6 @@
             "selectionBackground": "#FFFFFF",
             "white": "#F1F1F1",
             "yellow": "#3D2AFF"
-        },
-        {
-            "background": "#1a1b26",
-            "black": "#15161e",
-            "blue": "#7aa2f7",
-            "brightBlack": "#414868",
-            "brightBlue": "#7aa2f7",
-            "brightCyan": "#7dcfff",
-            "brightGreen": "#9ece6a",
-            "brightPurple": "#9d7cd8",
-            "brightRed": "#f7768e",
-            "brightWhite": "#c0caf5",
-            "brightYellow": "#e0af68",
-            "cursorColor": "#c0caf5",
-            "cyan": "#7dcfff",
-            "foreground": "#c0caf5",
-            "green": "#9ece6a",
-            "name": "Tokyo Night",
-            "purple": "#bb9af7",
-            "red": "#f7768e",
-            "selectionBackground": "#283457",
-            "white": "#a9b1d6",
-            "yellow": "#e0af68"
         }
     ],
     "showTabsInTitlebar": true,
