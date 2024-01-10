@@ -36,7 +36,7 @@
     "confirmCloseAllTabs": false,
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{789d2cbd-a8af-49e7-b0c1-31324f7d88ad}",
+    "defaultProfile": "{00000000-0000-0000-ba54-000000000002}",
     "newTabMenu": 
     [
         {
@@ -69,10 +69,10 @@
                 "hidden": false,
                 "icon": "%PROGRAMFILES%/Git/mingw64/share/git/git-for-windows.ico",
                 "name": "Git Bash",
-                "startingDirectory": "%USERPROFILE%"
+                "startingDirectory": "%USERPROFILE%",
             },
             {
-                "commandline": "wsl.exe -d Ubuntu",
+                "commandline": "wsl.exe -d Ubuntu tmux attach-session -t default || tmux new-session -s default",
                 "guid": "{789d2cbd-a8af-49e7-b0c1-31324f7d88ad}",
                 "icon": "C:\\Users\\umuts\\WindowsTerminalIcons\\WindowsDevTools\\ubuntu_32px.png",
                 "name": "Ubuntu",
@@ -101,6 +101,14 @@
                 "hidden": false,
                 "name": "PowerShell",
                 "source": "Windows.Terminal.PowershellCore"
+            },
+            {
+                "commandline": "wsl.exe -d Ubuntu",
+                "guid": "{89786253-a7e5-4cfb-a843-278a461287cb}",
+                "hidden": false,
+                "icon": "C:\\Users\\umuts\\WindowsTerminalIcons\\WindowsDevTools\\ubuntu_32px.png",
+                "name": "Ubuntu /wo tmux",
+                "startingDirectory": "\\\\wsl.localhost\\Ubuntu\\home\\qorcialwolf"
             }
         ]
     },
