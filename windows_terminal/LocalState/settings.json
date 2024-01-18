@@ -60,6 +60,8 @@
             "padding": "0",
             "scrollbarState": "hidden",
             "useAcrylic": false
+            //"useAcrylic": true
+            //"opacity": 60,
         },
         "list": 
         [
@@ -394,6 +396,6 @@
     "showTabsInTitlebar": true,
     "tabSwitcherMode": "inOrder",
     "themes": [],
-    "useAcrylicInTabRow": true,
+    "useAcrylicInTabRow": false,
     "windowingBehavior": "useNew"
 }
