@@ -52,7 +52,11 @@
             "font": 
             {
                 "face": "JetBrainsMono Nerd Font",
-                "size": 11.0
+                "size": 11.0,
+                "features": 
+                {
+                    "calt": 0
+                }
             },
             "historySize": 12000,
             "intenseTextStyle": "bright",
@@ -71,7 +75,7 @@
                 "hidden": false,
                 "icon": "%PROGRAMFILES%/Git/mingw64/share/git/git-for-windows.ico",
                 "name": "Git Bash",
-                "startingDirectory": "%USERPROFILE%",
+                "startingDirectory": "%USERPROFILE%"
             },
             {
                 "commandline": "wsl.exe -d Ubuntu tmux attach-session -t default || tmux new-session -s default",
