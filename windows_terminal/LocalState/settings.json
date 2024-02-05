@@ -36,7 +36,7 @@
     "confirmCloseAllTabs": false,
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{00000000-0000-0000-ba54-000000000002}",
+    "defaultProfile": "{789d2cbd-a8af-49e7-b0c1-31324f7d88ad}",
     "newTabMenu": 
     [
         {
@@ -52,11 +52,11 @@
             "font": 
             {
                 "face": "JetBrainsMono Nerd Font",
-                "size": 11.0,
                 "features": 
                 {
                     "calt": 0
-                }
+                },
+                "size": 11.0
             },
             "historySize": 12000,
             "intenseTextStyle": "bright",
