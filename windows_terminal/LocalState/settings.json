@@ -36,7 +36,7 @@
     "confirmCloseAllTabs": false,
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{789d2cbd-a8af-49e7-b0c1-31324f7d88ad}",
+    "defaultProfile": "{00000000-0000-0000-ba54-000000000002}",
     "newTabMenu": 
     [
         {
@@ -64,8 +64,6 @@
             "padding": "0",
             "scrollbarState": "hidden",
             "useAcrylic": false
-            //"useAcrylic": true
-            //"opacity": 60,
         },
         "list": 
         [
