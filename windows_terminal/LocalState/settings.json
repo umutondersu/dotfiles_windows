@@ -9,18 +9,11 @@
                 "action": "copy",
                 "singleLine": false
             },
-            "id": "User.copy.644BA8F2",
-            "keys": "ctrl+shift+c"
+            "id": "User.copy.644BA8F2"
         },
         {
             "command": "paste",
-            "id": "User.paste",
-            "keys": "ctrl+shift+v"
-        },
-        {
-            "command": "find",
-            "id": "User.find",
-            "keys": "ctrl+shift+f"
+            "id": "User.paste"
         },
         {
             "command": 
@@ -29,19 +22,56 @@
                 "split": "auto",
                 "splitMode": "duplicate"
             },
-            "id": "User.splitPane.A6751878",
-            "keys": "alt+shift+d"
+            "id": "User.splitPane.A6751878"
+        },
+        {
+            "command": "find",
+            "id": "User.find"
         },
         {
             "command": "closePane",
-            "id": "User.closePane",
-            "keys": "alt+shift+w"
+            "id": "User.closePane"
         }
     ],
     "confirmCloseAllTabs": false,
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{00000000-0000-0000-ba54-000000000002}",
+    "keybindings": 
+    [
+        {
+            "id": "User.closePane",
+            "keys": "alt+shift+w"
+        },
+        {
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "id": null,
+            "keys": "enter"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+insert"
+        },
+        {
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+shift+c"
+        },
+        {
+            "id": null,
+            "keys": "shift+insert"
+        },
+        {
+            "id": "User.paste",
+            "keys": "ctrl+shift+v"
+        },
+        {
+            "id": "User.splitPane.A6751878",
+            "keys": "alt+shift+d"
+        }
+    ],
     "newTabMenu": 
     [
         {
@@ -61,7 +91,7 @@
                 {
                     "calt": 0
                 },
-                "size": 11.0
+                "size": 11
             },
             "historySize": 12000,
             "intenseTextStyle": "bright",
@@ -86,6 +116,7 @@
                 "guid": "{789d2cbd-a8af-49e7-b0c1-31324f7d88ad}",
                 "icon": "C:\\Users\\umuts\\WindowsTerminalIcons\\WindowsDevTools\\ubuntu_32px.png",
                 "name": "Ubuntu",
+                "padding": "10",
                 "startingDirectory": "\\\\wsl.localhost\\Ubuntu\\home\\qorcialwolf"
             },
             {
